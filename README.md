@@ -1,0 +1,2 @@
+# Proxy
+This app represents implementation of a proxy design pattern. The proxy deals with class that recieves yesterday's exchange rate from an external source. Proxy implements the same interface and caches results of queries to the bank web api.
