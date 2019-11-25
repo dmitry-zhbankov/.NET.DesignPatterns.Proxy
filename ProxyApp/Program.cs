@@ -13,7 +13,7 @@ namespace ProxyApp
             DateTime end = DateTime.Now;
             TimeSpan dt = end - start;
             Console.WriteLine($"Time elapsed={dt.Milliseconds}ms");
-            curRate.WriteCurRate();
+            curRate?.WriteCurRate();
 
             Console.WriteLine();
 
@@ -23,7 +23,7 @@ namespace ProxyApp
             end = DateTime.Now;
             dt = end - start;
             Console.WriteLine($"Time elapsed={dt.Milliseconds}ms");
-            curRate.WriteCurRate();
+            curRate?.WriteCurRate();
             Console.ReadLine();
         }
     }
